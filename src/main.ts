@@ -11,8 +11,8 @@ async function bootstrap() {
   .setVersion('1.0')
   .addTag('email')
   .build();
-const document = SwaggerModule.createDocument(app, config);
-SwaggerModule.setup('api', app, document);
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('api', app, document);
   
   await app.listen(3100);
 }
