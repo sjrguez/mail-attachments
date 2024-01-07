@@ -30,7 +30,7 @@ This is a project to parse mail with attachment JSON
 
 1. do npm install
 2. Change the file ```.env copy``` to ```.env``` and add the necessary data
-3. do ```npm run start-dev``` or  ```npm start```
+3. do ```npm run start:dev``` or  ```npm start```
 
 ## API information
 
