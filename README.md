@@ -24,50 +24,19 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a project to parse mail with attachment JSON
 
-## Installation
+### To upload the application, follow the next steps:
 
-```bash
-$ npm install
-```
+1. do npm install
+2. Change the file ```.env copy``` to ```.env``` and add the necessary data
+3. do ```npm run start-dev``` or  ```npm start```
 
-## Running the app
+## API information
 
-```bash
-# development
-$ npm run start
+- For access to swagger: http://localhost:3100/api#
+- The API: http://localhost:3100/mail/parse
 
-# watch mode
-$ npm run start:dev
+## Extra information
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+I was a bit confuse about the response i didnt understand whether i have to return the file or send a new mail and attach the JSON file so i did both. I hope you might understand that.
